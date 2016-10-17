@@ -1,6 +1,7 @@
 import astroquery
 import pandas as pd
 from astroquery.simbad import Simbad
+import numpy as np
 def get_names(target_name,catalog="HIP",all_cats=False):
     """
     use astroquery to resolve the target's catalog value via simbad. 
@@ -28,10 +29,10 @@ def get_names(target_name,catalog="HIP",all_cats=False):
     else:
         result_table = pd.Series([j.as_void()[0].decode('utf-8') for j in result_table])
     result_val=result_table[result_table.str.contains(catalog)].values
-    if result_val.shape[0] ==0:
+    if np.shape(result_val)[0] ==0:
         result_val = ["NaN"]
     #if only one value, drop the list brackets:
-    if result_val.shape[0] ==1:  
+    if np.shape(result_val)[0] ==1:  
         result_val=result_val[0]
 
     return result_val
