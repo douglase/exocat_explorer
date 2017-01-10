@@ -1,6 +1,7 @@
 README.
 
-this project has submodules (for output tables):https://git-scm.com/book/en/v2/Git-Tools-Submodules#Cloning-a-Project-with-Submodules
+this project has a submodule (for output tables), so be sure to clone that too, HOWTO: 
+https://git-scm.com/book/en/v2/Git-Tools-Submodules#Cloning-a-Project-with-Submodules
 
 Output figures:
 
