@@ -1,0 +1,3 @@
+[submodule "RV_targets"]
+	path = RV_targets
+	url = git@github.com:wfirst-cgi/RV_targets.git
