@@ -6,3 +6,5 @@ https://git-scm.com/book/en/v2/Git-Tools-Submodules#Cloning-a-Project-with-Submo
 Output figures:
 
 https://douglase.github.io/exocat_explorer/pc_msini_and_sep.html
+
+http://ewandouglas.space/exocat_explorer/pc_msini_and_sep.html
